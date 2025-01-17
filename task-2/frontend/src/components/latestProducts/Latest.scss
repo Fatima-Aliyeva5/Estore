@@ -1,0 +1,27 @@
+.latest{
+    h2{
+        font-size: 48px;
+    }
+    .row-list{
+        display: flex;
+        align-items: center;
+        .all-new{
+            ul{
+                display: flex;
+                justify-content: flex-end;
+                gap: 30px;      
+                li{
+                    list-style: none;
+                
+                }
+            }
+           
+        }
+    }
+    .product-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+ 
+}
